@@ -14,13 +14,22 @@
     <style>
         body{
             font-size:14px;
+        } 
+        #logo {
+            text-align:center;
         }
         #logo img{
-            max-width:125px;
+            max-width:200px;
             border: 4px solid #999;
             border-radius:100%;
-            
+    
         }
+       
+        #introduction h1{
+            font-style:italic;
+        } 
+        
+        
     </style>
   </head>
   <body>
@@ -36,8 +45,27 @@
           </div>
         <div>
     </header>
-    <div id="logo">
-     <img src="profile.jpg" alt="" />
+    <div class="container-fluid">
+        <div class="row">
+           <div class=col-sm-3 id="logo">
+           <img src="profile.jpg" alt="" /><br />
+           <h1>原　悠真</h1>
+          </div>
+           <div class=col-sm-9 id="introduction">
+               <h1>自己紹介</h1>
+               <p>京大に通う、現役の医学部生です！　<br />
+               趣味はゲーム、カラオケ、ピアノ..etcなど様々ありますが、それでも有り余る時間を <br />
+               使ってプログラミングを学び始めました！ <br />
+              よろしくお願いします！　<br />
+               </p>
+               <div class="col-sm-3">
+                    <strong>所属　</strong>
+                    <strong>部活動</strong>
+                    <strong>使用パソコン</strong>
+               
+               
+           </div>
+        </div>
     </div>
   </body>
 </html>
