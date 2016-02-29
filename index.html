@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>開発アプリの紹介</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+        body{
+            font-size:14px;
+        } 
+        .container-fluid{
+            background-image:url(background1.jpg);
+            background-size:cover;
+            background-position:center center;
+            background-repeat:no-repeat;
+            margin-top:-20px;
+        }
+        #logo {
+            text-align:center;
+        }
+        #logo img{
+            max-width:200px;
+            border: 4px solid #999;
+            border-radius:100%;
+    
+        }
+       #introduction{
+           margin-bottom:20px;
+       }
+        #introduction h1{
+            font-style:italic;
+        } 
+        .content img{
+            max-width:200px;
+            
+        }
+       
+        
+        
+    </style>
+  </head>
+  <body>
+    <header>
+        <div class="comtainer-fluid">
+          <div class="navbar navbar-default">
+              <div class="collapse navbar-collapse" id="site-menu">
+                 <ul class="nav navbar-nav navbar-left">
+                 <li><a href="#">about</a></li>
+                 <li><a href="#">contact</a></li>
+                 </ul>
+              </div>
+          </div>
+        <div>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+           <div class=col-sm-3 id="logo">
+           <img src="profile.jpg" alt="" /><br />
+           <h1>原　悠真</h1>
+           </div>
+           <div class=col-sm-9 id="introduction">
+               <h1>自己紹介</h1>
+               <p>京大に通う、現役の医学部生です！　<br />
+               趣味はゲーム、カラオケ、ピアノ..etcなど様々ありますが、それでも有り余る時間を <br />
+               使ってプログラミングを学び始めました！ <br />
+              よろしくお願いします！　<br />
+               </p>
+               <div class="col-sm-3">
+                    <strong>所属　</strong> <br />
+                    <strong>部活動</strong> <br />
+                    <strong>年齢</strong>   <br />
+                    <strong>git hubの<br />ユーザーページ </strong>
+               </div>
+               <div class="col-sm-9">
+                   京都大学　医学部医学科　<br />
+                   医学部水泳部　<br />
+                   19歳　　　　　　<br />
+                    <a href="https://github.com/yumahara7">https://github.com/yumahara7</a>
+               </div>
+           </div>
+           <div class="content">
+               
+                <h1>アプリ紹介</h1>
+                <div class="col-sm-3">
+                   <img src="images1.jpg" alt="" />
+                   <h2>アプリ１</h2>
+                   <p>説明１</p>
+                </div> 
+                <div class="col-sm-3">
+                   <img src="images2.png" alt="" />
+                   <h2>アプリ2</h2>
+                   <p>説明２</p>
+                </div> 
+                <div class="col-sm-3">
+                　 <img src="images3.png" alt="" />
+                   <h2>アプリ3</h2>
+                   <p>説明3</p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="images4.jpg" alt="" />
+                   <h2>アプリ4</h2>
+                   <p>説明4</p>
+                </div> 
+           </div>
+        </div>
+    </div>
+  </body>
+</html>
